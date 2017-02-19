@@ -1,0 +1,33 @@
+Browser sends a request to the server and the server sends back a response.
+
+The Request:
+1. The Envelope - Where is the request going? (Public) http//www.example.com/index.html
+  a. determined by the url of the request. In src or href.
+  b. http: is Protocol, ftp, https, file
+  c. www.example.com: is Host. What server am I going to? Domain Name or IP address.
+    a. Special domain name is localhost. Prints back to your current computer, client and server on same computer.
+    b. Port tells us which program on the computer is the server.
+2. The payload - What do we want the server to do?
+  a. Method - tells server what you want, GET or POST most common
+  b. URI/Path - Selects a file on the server
+  c. Query or Search - ?property=value&propertyTwo=valueTwo
+  d. Headers - key-value pairs that provide metadata about the request.
+  e. Content - GET requests have no body, POST requests send body(content)
+
+The Response
+1. Status
+  a. Informational 1xx Lowest 100
+  b. Success 2xx
+  c. Redirection 3xx
+  d. Client Error 4xx
+  e. Server Error 5xx
+2. Headers
+  a. Content-Type- What type of data?
+  b. How big is this file?
+3. Body/Content
+  a. Actual material
+
+  AJAX - Acronym for Asynchronous Javacsript and XML.
+  Make additional requests to server without reloading the page.
+
+  jQuery and Ajax

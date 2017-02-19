@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+  background-color: #9C8AA5;
+  padding: 0;
+  margin: 0;
+  font-family: Times, Helvetica, serif;
+  line-height: 1.5;
+}
+
+header#header {
+  background: #421C52;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+/* Section Boxes for Organization */
+section.boxApi {
+  background-color: #732C7B;
+  color: white;
+  width: 30%;
+  height: 500px;
+  border: 1px solid white;
+  border-radius: 5px;
+  overflow: auto;
+  float: left;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color:
+}
+
+/* Within API box styling */
+section.boxApi {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+section.boxApi img {
+  border-bottom: 1px solid green;
+  margin-bottom: 25%;
+  margin-top: 5%;
+}
+
+section.boxApi img:hover {
+  border: 1px solid white;
+}
+
+/*Footer */
+footer {
+  position: absolute;
+  background: #421C52;
+  color: white;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  border-top: 2px solid white;
+}
+
+/* Git Box Specific Styling */
+input#searchUser {
+  width: 90%;
+  padding: 5px;
+  height: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+button#submitButton {
+  background: #BDAEC6;
+  color: black;
+  border: none;
+  width: 93%;
+  padding: 5px;
+  height: 30px;
+}
+
+button#submitButton:hover {
+  border: 1px solid white;
+}
+
+span.spanStyle {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 2px;
+  margin-bottom: 2%;
+  padding: 5px;
+  display: block;
+}
+
+section.boxApi img.gitImageAdjust {
+  margin-bottom: 5%;
+}
+
+div#profile {
+  height: 100px;
+  margin-bottom: 0;
+}
