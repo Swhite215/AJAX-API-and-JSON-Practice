@@ -85,27 +85,6 @@ footer {
 }
 
 /* Git Box Specific Styling */
-input#searchUser {
-  width: 90%;
-  padding: 5px;
-  height: 20px;
-  margin-bottom: 5px;
-  margin-top: 10px;
-}
-
-button#submitButton {
-  background: #BDAEC6;
-  color: black;
-  border: none;
-  width: 93%;
-  padding: 5px;
-  height: 30px;
-}
-
-button#submitButton:hover {
-  border: 1px solid white;
-}
-
 span.spanStyle {
   border: 1px solid white;
   border-radius: 5px;
@@ -113,6 +92,10 @@ span.spanStyle {
   margin-bottom: 2%;
   padding: 5px;
   display: block;
+}
+
+span.repoSpace {
+  margin-bottom: 20%;
 }
 
 section.boxApi img.gitImageAdjust {

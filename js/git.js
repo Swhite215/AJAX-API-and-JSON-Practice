@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    //make request to GitHub.
+    //make ajax request to GitHub.
     $.ajax({
       url: "https://api.github.com/users",
       data: {
@@ -29,12 +29,15 @@ $(document).ready(function() {
 
       //Number of Git Repos
       var gitRepo = $("<span>").text("Repositories: " + gitUser[i].repos_url.length);
-      gitRepo.addClass("spanStyle");
+      gitRepo.addClass("spanStyle repoSpace");
       $("div#profile").append(gitRepo);
 
       //Add a line to space users apart.
       $("div#profile").append("<hr>");
     }
 
+  }).fail(function() {
+    console.log("error");
+    alert("Error in Ajax Request");
   });
 });
