@@ -1,5 +1,8 @@
-##Project Title: AJAX-API-and-JSON Practice
+##Project Title: 
+Reddit and GitHub API
 
-##Description: I used the jQuery Get Method for Reddit API and the jQuery Ajax method for Git API. Practice with sifting and displaying JSON data.
+##Description: 
+I used the jQuery Get Method for the Reddit API and the jQuery Ajax method for the Git API.
 
-##Tools: jQuery, HTML, CSS, JavaScript, AJAX, API, JSON
+##Tools: 
+jQuery, HTML, CSS, JavaScript, AJAX, API, JSON
