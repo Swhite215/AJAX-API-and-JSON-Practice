@@ -75,7 +75,7 @@ section.boxApi img:hover {
 
 /*Footer */
 footer {
-  position: absolute;
+  position: fixed;
   background: #421C52;
   color: white;
   bottom: 0;
@@ -85,6 +85,11 @@ footer {
 }
 
 /* Git Box Specific Styling */
+div#profile {
+  height: 100px;
+  margin-bottom: 0;
+}
+
 span.spanStyle {
   border: 1px solid white;
   border-radius: 5px;
@@ -102,7 +107,27 @@ section.boxApi img.gitImageAdjust {
   margin-bottom: 5%;
 }
 
-div#profile {
-  height: 100px;
-  margin-bottom: 0;
+/* Media Queries */
+
+@media only screen and (max-width: 1400px) {
+  section.boxApi {
+    min-width: 371.5px;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  section.boxApi3 {
+    display: none;
+  }
+}
+
+@media only screen (max-width: 768px) {
+  section.boxApi2 {
+    float: none;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+    margin-top: 100px;
+  }
+
 }
